@@ -1,0 +1,22 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true">
+
+  <description>
+    Servlet and JSP Examples.
+  </description>
+  <display-name>Servlet and JSP Examples</display-name>
+  <request-character-encoding>UTF-8</request-character-encoding>
+
+  <servlet>
+    <servlet-name>Servl</servlet-name>
+    <servlet-class>com.webapp.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servl</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+</web-app>
