@@ -1,5 +1,7 @@
 <html>
+<head>
+</head>
 <body>
-<h2>Hello World!</h2>
+<a href = "http://localhost:80/MailTest_war/hello">Go to programm</a>
 </body>
 </html>
