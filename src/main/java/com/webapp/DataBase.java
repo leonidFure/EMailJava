@@ -19,6 +19,5 @@ public class DataBase extends HttpServlet {
         String field = req.getParameter("field");
         PrintWriter printWriter = resp.getWriter();
         printWriter.print(new DB(field).select());
-        printWriter.print("<form name=\"form1\" method=\"post\" action=\"http://localhost:80/\">\n    </form>\n");
     }
 }

@@ -22,13 +22,13 @@ public class HelloServlet extends HttpServlet {
                 "    <title>Document</title>\n" +
                 "</head>\n" +
                 "<body>\n" +
-                "    <form name=\"form1\" method=\"post\" action=\"http://localhost:80/MailTest_war/hello\">\n" +
+                "    <form name=\"form1\" method=\"post\" action=\"http://localhost:8080/MailTest_/hello\">\n" +
                 "        Email: <input type=\"text\" name=\"email\" placeholder=\"Enter EMail...\"><br><br>\n" +
                 "        Theme: <input type=\"text\" name=\"theme\" placeholder=\"Enter theme...\"><br><br>\n" +
                 "        Text:  <input type=\"text\" name=\"text\"placeholder=\"Enter text...\"><br><br>\n" +
                 "        <input type=\"submit\" value=\"Send\">\n" +
                 "    </form>\n" +
-                "    <form name=\"form1\" method=\"post\" action=\"http://localhost:80/MailTest_war/db\">\n" +
+                "    <form name=\"form1\" method=\"post\" action=\"http://localhost:8080/MailTest/db\">\n" +
                 "        Поле: <input type=\"text\" name=\"field\" placeholder=\"Enter Field...\"><br><br>\n" +
                 "        <input type=\"submit\" value=\"Select\">\n" +
                 "    </form>\n" +
