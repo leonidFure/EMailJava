@@ -42,8 +42,8 @@ public class HelloServlet extends HttpServlet {
         String eMail = req.getParameter("email");
         String theme = req.getParameter("theme");
         String text = req.getParameter("text");
-        final String from = "nastyafilyushkina98@gmail.com";
-        final String password = "ujujkm2010";
+        final String from = "здесь мэйл";
+        final String password = "здесь свой пароль";
         String host = "smtp.gmail.com";
         int port = 465;
         Properties props = new Properties();
